@@ -1,0 +1,40 @@
+  bad pixels: 25937 (25934 from table, 3 added by thresholds)
+  0/360  3s
+  200/360  7s
+  prepared (360, 252, 1031) in 12s
+  couch_1 A_c1.npy (256, 256, 123) in 78s
+  couch_1 B_c1.npy (256, 256, 123) in 76s
+  bad pixels: 25948 (25934 from table, 14 added by thresholds)
+  0/360  2s
+  200/360  7s
+  prepared (360, 252, 1031) in 11s
+  couch_2 A_c2.npy (256, 256, 123) in 74s
+  couch_2 B_c2.npy (256, 256, 123) in 82s
+  bad pixels: 25945 (25934 from table, 11 added by thresholds)
+  0/360  3s
+  200/360  7s
+  prepared (360, 252, 1031) in 12s
+  couch_3 A_c3.npy (256, 256, 123) in 82s
+  couch_3 B_c3.npy (256, 256, 123) in 84s
+  bad pixels: 25941 (25934 from table, 7 added by thresholds)
+  0/360  3s
+  200/360  7s
+  prepared (360, 252, 1031) in 12s
+  couch_4 A_c4.npy (256, 256, 123) in 82s
+  couch_4 B_c4.npy (256, 256, 123) in 83s
+pair 1->2: overlap voxels 1285124 (42.6% of the 46-slice band)
+  residual z-registration -58 um (-0.30 voxel)
+  flat  bin: cross 0.00222  within 0.00301  ratio 0.737
+  sharp bin: cross 0.00255  within 0.00266  ratio 0.958
+  ratio change flat->sharp: +0.220
+pair 2->3: overlap voxels 1285124 (42.6% of the 46-slice band)
+  residual z-registration -78 um (-0.40 voxel)
+  flat  bin: cross 0.00249  within 0.00336  ratio 0.740
+  sharp bin: cross 0.00291  within 0.00301  ratio 0.964
+  ratio change flat->sharp: +0.224
+pair 3->4: overlap voxels 1285124 (42.6% of the 46-slice band)
+  residual z-registration -58 um (-0.30 voxel)
+  flat  bin: cross 0.00181  within 0.00236  ratio 0.765
+  sharp bin: cross 0.00257  within 0.00209  ratio 1.227
+  ratio change flat->sharp: +0.462
+wrote exp/overlap_gradient.json

@@ -1,0 +1,17 @@
+/home/ahmed-lamidi/Documents/Yi_Sheng_lab/PCCT/test0/core.py:99: RuntimeWarning: invalid value encountered in divide
+  P = -np.log(v / a[None, :])
+/home/ahmed-lamidi/Documents/Yi_Sheng_lab/PCCT/test0/core.py:100: RuntimeWarning: divide by zero encountered in divide
+  var_P = (v / NFRAMES + q / 12.0) / v**2
+/home/ahmed-lamidi/Documents/Yi_Sheng_lab/PCCT/test0/core.py:131: RuntimeWarning: invalid value encountered in sqrt
+  return np.sqrt(var_P[test] + (W**2) @ var_P[train])
+  mask: 1015881/1041815 good (97.51%)
+    -   25934  bad_table
+    -       0  counts_out_of_range
+    -       0  negative_low
+    -       0  tile_gap_pixels
+    dead columns: [127, 128, 129, 256, 257, 258, 385, 386, 387, 514, 515, 516, 643, 644, 645, 772, 773, 774, 901, 902, 903, 1030, 1031, 1032, 1159, 1160, 1161, 1288, 1289, 1290, 1417, 1418, 1419, 1546, 1547, 1548, 1675, 1676, 1677, 1804, 1805, 1806, 1933, 1934, 1935, 2062]
+  using 55 combos (excluded self-referential PMMA_0_AL_0)
+  region (505, 2063), good pixels 1015881/1041815
+  deg1 done
+  deg2 done
+  deg3 done

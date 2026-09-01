@@ -1,0 +1,118 @@
+
+======================================================================
+KILL TEST — Water_Phantom
+======================================================================
+
+[1] view angles
+  view angles from Total/AcqPara.mat [0.0025, 6.2814] rad
+
+[2] loading ROIs (one pass per bin)
+    Total    0/1440  (  0.0s)
+    Total  200/1440  (  0.3s)
+    Total  400/1440  (  0.8s)
+    Total  600/1440  (  1.2s)
+    Total  800/1440  (  1.6s)
+    Total 1000/1440  (  2.0s)
+    Total 1200/1440  (  2.5s)
+    Total 1400/1440  (  2.8s)
+    Total done in 2.9s
+    High    0/1440  (  0.0s)
+    High  200/1440  (  0.4s)
+    High  400/1440  (  0.8s)
+    High  600/1440  (  1.3s)
+    High  800/1440  (  1.7s)
+    High 1000/1440  (  2.0s)
+    High 1200/1440  (  2.3s)
+    High 1400/1440  (  2.7s)
+    High done in 2.7s
+
+[3] bad-pixel mask
+  bad-pixel table read as an index list (25933 entries)
+  good pixels: 1014068 / 1041815 (97.34%)
+
+[4] drift normalisation — dropping 0 outlier views
+
+[5] air_L
+    count rate  2891.2   High/Total 0.546
+    no detrend (air ROI — never sees the phantom)
+    Fano   T  1.016   H  1.018
+    rho_LH +0.0020
+    neighbour corr:  TT_x1=+0.001  HH_x1=+0.008  TH_x1=+0.002  TT_x2=+0.004
+
+[5] air_R
+    count rate  2941.0   High/Total 0.543
+    no detrend (air ROI — never sees the phantom)
+    Fano   T  1.017   H  1.019
+    rho_LH +0.0004
+    neighbour corr:  TT_x1=+0.000  HH_x1=+0.008  TH_x1=+0.001  TT_x2=+0.005
+
+[5] edge_L
+    count rate  1203.5   High/Total 0.654
+    harmonic detrend removed 89.4% (T) / 78.4% (H) of variance
+    Fano   T  1.006   H  1.005
+    rho_LH +0.0012
+    neighbour corr:  TT_x1=+0.006  HH_x1=+0.009  TH_x1=+0.007  TT_x2=+0.007
+
+[5] light_L
+    count rate   848.5   High/Total 0.695
+    harmonic detrend removed 56.3% (T) / 41.2% (H) of variance
+    Fano   T  1.003   H  1.003
+    rho_LH +0.0007
+    neighbour corr:  TT_x1=+0.007  HH_x1=+0.009  TH_x1=+0.007  TT_x2=+0.006
+
+[5] medium_L
+    count rate   669.7   High/Total 0.716
+    harmonic detrend removed 18.2% (T) / 12.4% (H) of variance
+    Fano   T  1.002   H  1.001
+    rho_LH +0.0011
+    neighbour corr:  TT_x1=+0.008  HH_x1=+0.010  TH_x1=+0.008  TT_x2=+0.007
+
+[5] deep_centre
+    count rate   593.4   High/Total 0.725
+    harmonic detrend removed 1.3% (T) / 0.8% (H) of variance
+    Fano   T  1.001   H  1.001
+    rho_LH +0.0007
+    neighbour corr:  TT_x1=+0.008  HH_x1=+0.010  TH_x1=+0.008  TT_x2=+0.007
+
+[5] medium_R
+    count rate   698.8   High/Total 0.716
+    harmonic detrend removed 25.8% (T) / 15.7% (H) of variance
+    Fano   T  1.002   H  1.001
+    rho_LH +0.0011
+    neighbour corr:  TT_x1=+0.008  HH_x1=+0.010  TH_x1=+0.008  TT_x2=+0.007
+
+[5] light_R
+    count rate  1016.8   High/Total 0.671
+    harmonic detrend removed 79.0% (T) / 62.8% (H) of variance
+    Fano   T  1.006   H  1.005
+    rho_LH +0.0020
+    neighbour corr:  TT_x1=+0.006  HH_x1=+0.008  TH_x1=+0.007  TT_x2=+0.006
+
+======================================================================
+VERDICT
+======================================================================
+per-pair standard error ~0.0264; medians over thousands of pairs
+
+(TH_x0, the same-pixel Total-High correlation, is excluded throughout:
+ High is a subset of Total, so it is trivially large and carries no physics.)
+
+ROI               rate    H/T   FanoT   rho_LH   TT_x1   HH_x1   TH_x1   |max|
+air_L             2891  0.546   1.016  +0.0020  +0.001  +0.008  +0.002   0.008
+air_R             2941  0.543   1.017  +0.0004  +0.000  +0.008  +0.001   0.008
+edge_L            1203  0.654   1.006  +0.0012  +0.006  +0.009  +0.007   0.009
+light_L            848  0.695   1.003  +0.0007  +0.007  +0.009  +0.007   0.009
+medium_L           670  0.716   1.002  +0.0011  +0.008  +0.010  +0.008   0.010
+deep_centre        593  0.725   1.001  +0.0007  +0.008  +0.010  +0.008   0.010
+medium_R           699  0.716   1.002  +0.0011  +0.008  +0.010  +0.008   0.010
+light_R           1017  0.671   1.006  +0.0020  +0.006  +0.008  +0.007   0.008
+
+peak |correlation| overall : 0.0100
+peak |correlation| in air  : 0.0078   (no detrending, cleanest evidence)
+max |Fano - 1|             : 0.0174
+max |rho_LH|               : 0.0020
+
+>>> KILL. Everything below ~0.05.
+    Before falling back: confirm detrending did not over-fit (check var_removed), and
+    confirm the air ROIs agree with the object ROIs.
+
+artifacts written to results_water/

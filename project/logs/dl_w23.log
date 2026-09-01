@@ -1,0 +1,8 @@
+Walnut_2 couch_1: 720 files
+  Walnut_2 c1 200/720  226s  fail=0
+  Walnut_2 c1 400/720  394s  fail=0
+  Walnut_2 c1 600/720  593s  fail=0
+WALNUT_2_COUCH_1_COMPLETE  (672s)
+Walnut_2 couch_2: 720 files
+  Walnut_2 c2 200/720  857s  fail=0
+  Walnut_2 c2 400/720  1047s  fail=0

@@ -1,0 +1,35 @@
+=== walnut 2 downloaded, reconstructing ===
+  bad pixels: 25942 (25934 from table, 8 added by thresholds)
+  0/360  2s
+  200/360  6s
+  prepared (360, 252, 1031) in 10s
+  walnut2 couch_1 A_c1.npy in 67s
+  walnut2 couch_1 B_c1.npy in 70s
+  bad pixels: 25946 (25934 from table, 12 added by thresholds)
+  0/360  2s
+  200/360  6s
+  prepared (360, 252, 1031) in 10s
+  walnut2 couch_2 A_c2.npy in 70s
+  walnut2 couch_2 B_c2.npy in 70s
+  bad pixels: 25947 (25934 from table, 13 added by thresholds)
+  0/360  2s
+  200/360  6s
+  prepared (360, 252, 1031) in 10s
+  walnut2 couch_3 A_c3.npy in 70s
+  walnut2 couch_3 B_c3.npy in 70s
+  bad pixels: 25940 (25934 from table, 6 added by thresholds)
+  0/360  2s
+  200/360  6s
+  prepared (360, 252, 1031) in 11s
+  walnut2 couch_4 A_c4.npy in 70s
+  walnut2 couch_4 B_c4.npy in 70s
+WALNUT_2_RECON_COMPLETE
+W2 pair 1->2: shift +78 um | flat ratio 0.873+-0.002  sharp ratio 1.319+-0.007  change +0.446
+W2 pair 2->3: shift +68 um | flat ratio 0.862+-0.003  sharp ratio 1.093+-0.005  change +0.231
+W2 pair 3->4: shift +78 um | flat ratio 0.962+-0.003  sharp ratio 1.751+-0.013  change +0.789
+wrote exp/figs/overlap_gradient_w2.png
+W2 pair 1->2:  R_sharp(alpha=0) = 1.073   R_flat(alpha=0) = 0.878   curvature +0.0091/mm^2
+W2 pair 2->3:  R_sharp(alpha=0) = 0.955   R_flat(alpha=0) = 0.862   curvature +0.0062/mm^2
+W2 pair 3->4:  R_sharp(alpha=0) = 1.182   R_flat(alpha=0) = 0.959   curvature +0.0048/mm^2
+wrote exp/figs/cone_matched_w2.png
+=== W2_PIPELINE_COMPLETE ===

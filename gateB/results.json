@@ -1,0 +1,48 @@
+{
+ "double_cov_fraction": 0.17824626778039596,
+ "covered_voxels": 21460152,
+ "double_voxels": 3825192,
+ "z_bands_mm": [
+  [
+   484.6829268292683,
+   490.1463414634146
+  ],
+  [
+   499.7073170731707,
+   505.1707317073171
+  ],
+  [
+   514.7317073170732,
+   520.1951219512196
+  ]
+ ],
+ "n_bands": 3,
+ "axial_fov_iso_mm": 21.83645784451262,
+ "couch_step_mm": 15.0,
+ "kernel_voxels": 3668210,
+ "shell_voxels": 95365,
+ "kernel_double": 858779,
+ "shell_double": 46688,
+ "kernel_double_frac": 0.23411391387079802,
+ "shell_double_frac": 0.48957164578199547,
+ "registration": [
+  {
+   "pair": "1->2",
+   "shift_vox": 3,
+   "shift_mm": 0.5853658536585367,
+   "corr": 0.7036770582199097
+  },
+  {
+   "pair": "2->3",
+   "shift_vox": 8,
+   "shift_mm": 1.5609756097560976,
+   "corr": 0.6222009658813477
+  },
+  {
+   "pair": "3->4",
+   "shift_vox": 0,
+   "shift_mm": 0.0,
+   "corr": 0.8553633689880371
+  }
+ ]
+}

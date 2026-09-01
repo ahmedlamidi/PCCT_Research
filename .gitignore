@@ -1,0 +1,28 @@
+# ---- raw data: 20 GB, redistributed from Zenodo, never commit ----
+data/
+*.zip
+
+# Walnut PCCT dataset (Zhou et al., Sci Data 12, 1955):
+#   calibration table + Walnut_1 : https://zenodo.org/records/15738314
+#   Walnut_2 and Walnut_3        : https://zenodo.org/records/16163984
+
+# ---- reconstructed volumes and intermediates: ~1.9 GB, regenerable from code ----
+*.npy
+*.npz
+*.raw
+*.mat
+
+# keep the small analysis outputs that ARE the results
+!project/results/**/*.json
+!gateA/results/*.json
+!gateB/results.json
+!exp/*.json
+!test0_results*/*.json
+
+# ---- python ----
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# ---- scratch ----
+*.part

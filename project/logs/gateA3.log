@@ -1,0 +1,28 @@
+  view angles from Total/AcqPara.mat [0.0025, 6.2814] rad
+    Total    0/1440  (  0.0s)
+    Total  200/1440  (  0.3s)
+    Total  400/1440  (  0.5s)
+    Total  600/1440  (  0.8s)
+    Total  800/1440  (  1.1s)
+    Total 1000/1440  (  1.4s)
+    Total 1200/1440  (  1.8s)
+    Total 1400/1440  (  2.1s)
+    Total done in 2.1s
+    High    0/1440  (  0.0s)
+    High  200/1440  (  0.4s)
+    High  400/1440  (  0.8s)
+    High  600/1440  (  1.2s)
+    High  800/1440  (  1.5s)
+    High 1000/1440  (  1.8s)
+    High 1200/1440  (  2.1s)
+    High 1400/1440  (  2.5s)
+    High done in 2.6s
+  bad-pixel table read as an index list (25933 entries)
+  good pixels: 1014068 / 1041815 (97.34%)
+drift: dropping 0 outlier views; 1440 kept
+air_L          [A_air]  rho_LH +0.00196 +- 0.00033   Cov(T,H)-Var(H) +2.9027 +- 0.4683   FanoT 1.0158 +- 0.0005   FanoH 1.0180 +- 0.0005
+air_R          [A_air]  rho_LH +0.00037 +- 0.00034   Cov(T,H)-Var(H) +0.5360 +- 0.4893   FanoT 1.0174 +- 0.0004   FanoH 1.0194 +- 0.0005
+deep_centre    [B_water_centre]  rho_LH +0.00070 +- 0.00021   Cov(T,H)-Var(H) +0.1808 +- 0.0551   FanoT 1.0012 +- 0.0003   FanoH 1.0006 +- 0.0004
+               detrend changed rho_LH by -0.00490 (23.2 SE); var removed 1.3% T / 0.8% H
+
+wrote gateA/results/A3_real_data.json
