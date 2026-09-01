@@ -1,0 +1,28 @@
+{
+ "physical": {
+  "z_obs_only": 6.771247754168681,
+  "z_leverage": 6.423769651341885,
+  "n_par_per_pixel": 3
+ },
+ "poly_deg1": {
+  "z_obs_only": 4.669665355031469,
+  "z_leverage": 4.4300335298034765,
+  "n_par_per_pixel": 3
+ },
+ "poly_deg2": {
+  "z_obs_only": 4.329292315636566,
+  "z_leverage": 3.9159922414732793,
+  "n_par_per_pixel": 6
+ },
+ "poly_deg3": {
+  "z_obs_only": 18.06531414750724,
+  "z_leverage": 15.432153631998519,
+  "n_par_per_pixel": 10
+ },
+ "test0_reference": {
+  "deg1": 5.035,
+  "deg2": 2.411,
+  "deg3": 1.379,
+  "note": "Test 0 numbers; different noise convention"
+ }
+}

@@ -1,0 +1,15 @@
+{
+ "z_centred": 11.383308055385257,
+ "z_raw": 11.74893496590658,
+ "n_train": 27,
+ "n_test": 28,
+ "n_pix": 1015881,
+ "gain_spread_pct": 7.518754960931219,
+ "delta_median": 0.0,
+ "delta_iqr": 2.5,
+ "stepc_benchmark": {
+  "deg1": 5.04,
+  "deg2": 2.41,
+  "deg3": 1.38
+ }
+}
